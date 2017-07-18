@@ -80,9 +80,10 @@
         \printbibliography[heading=countauthornotvak, env=countauthornotvak, keyword=biblioauthornotvak, section=1]%
         \printbibliography[heading=countauthor, env=countauthor, keyword=biblioauthor, section=1]%
         \nocite{%Порядок перечисления в этом блоке определяет порядок вывода в списке публикаций автора
-                vakbib1,vakbib2,%
-                confbib1,confbib2,%
-                bib1,bib2,%
+                Demchev_2017,Demchev_2016,%
+                Volkov2016,Kulakov_2015,%
+                Mironov2015,Volkov_2012,%
+                Buixad_Farr__2014,Demchev2009,Kazakov2016,%
         }%
         \publications\ Основные результаты по теме диссертации изложены в \arabic{citeauthor} печатных изданиях, 
         \arabic{citeauthorvak} из которых изданы в журналах, рекомендованных ВАК, 
@@ -93,9 +94,12 @@
         \printbibliography[heading=countauthornotvak, env=countauthornotvak, keyword=biblioauthornotvak, section=2]%
         \printbibliography[heading=countauthorconf, env=countauthorconf, keyword=biblioauthorconf, section=2]%
         \printbibliography[heading=countauthor, env=countauthor, keyword=biblioauthor, section=2]%
-        \nocite{vakbib2}%vak
+        \nocite{Demchev_2017,Demchev_2016,%
+        	Volkov2016,Kulakov_2015,%
+        	Mironov2015,Volkov_2012,%
+        	Buixad_Farr__2014,Demchev2009}%vak
         \nocite{bib1}%notvak
-        \nocite{confbib1}%conf
+        \nocite{Kazakov2016}%conf
     \end{refsection}
 }
 При использовании пакета \verb!biblatex! для автоматического подсчёта
